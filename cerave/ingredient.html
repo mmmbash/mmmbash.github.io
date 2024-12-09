@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeraVe Ingredients</title>
+    <link rel="stylesheet" href="ingredient.css">
+</head>
+<body>
+
+    <header>
+
+
+
+
+    <div id="banner">
+        <a href="HomePage.html"><img src="ingredient.png" height="300" width="1265" /></a>
+
+        <nav>
+            <ol id="navlinks">
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="ingredient.html">CeraVe Ingredient</a></li>
+                <li><a href="Skin101.html">Skincare 101</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ol>
+        </nav>
+    </div>
+
+        <div class="hero">
+            <h1>SKINCARE INGREDIENTS IN CERAVE PRODUCTS</h1>
+            <p>Developed with <a href="https://www.cerave.com/about-cerave/developed-with-dermatologists">dermatologists</a>, all CeraVe products contain a unique blend of three essential <a href="https://www.cerave.com/skin-smarts/strength-of-ceramides">ceramides</a> that are identical to those found naturally in your skin. Our range of fragrance-free products are formulated to lock in moisture and help maintain your skin’s protective barrier.</p>        
+            <p>Learn more about what goes into our products and which ingredients are right for you—including <a href="https://www.cerave.com/skincare/hyaluronic-acid">hyaluronic acid</a>, <a href="https://www.cerave.com/skincare/niacinamide">niacinamide</a>, <a href="https://www.cerave.com/skincare/serums/skin-renewing-vitamin-c-serum">vitamin C</a>, <a href="https://www.cerave.com/skincare/salicylic-acid-products">salicylic acid</a>, and a host of other proven ingredients.</p>
+ 
+    </div>
+    </header>
+
+    <main>
+
+
+
+<section class="skin-concerns">
+    <h1>Dealing With Skin Concerns?</h1>
+    <p>Whether you're battling persistent dryness, managing acne outbreaks, or seeking to diminish the signs of aging, CeraVe's tailored skincare solutions are here to aid your journey to healthier skin. Our dermatologically endorsed ingredients synergize to fortify your skin's natural defenses, offering solace and progress for an array of dermatological challenges.</p>
+    <p>Explore our bespoke collection, handpicked for diverse skin types and concerns. Experience deep hydration with hyaluronic acid, embrace the calming effect of niacinamide for sensitive skin, and unleash the clarifying power of salicylic acid on acne-prone areas. Embrace the transformative prowess of retinol and peptides to rejuvenate and renew. CeraVe is your partner in aging gracefully, providing clinically proven results for a radiant, youthful glow.</p>
+    <p>At CeraVe, we empower you to confront your skin concerns with confidence, arming you with products founded on scientific excellence and dermatological wisdom. Find your ideal skincare ally in our range and unlock the secret to resilient, vibrant skin. Begin your CeraVe voyage now.</p>
+<div class="testimonial-highlight">
+    <blockquote>"CeraVe was a game-changer for my sensitive, acne-prone skin. The gentle yet effective formula has helped clear my complexion without causing irritation. I feel confident and empowered in my skin!" - Jamie L.</blockquote>
+</div>
+<a href="https://www.cerave.com/skincare" class="cta-button">Find Your Skincare Solution</a>
+
+</section>
+
+
+
+<section class="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+        <!-- FAQ 1 -->
+        <div class="faq">
+            <div class="faq-question">
+                <h3>What are some well-established ingredients in skincare?</h3>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Well-established ingredients include hyaluronic acid for hydration, salicylic acid for exfoliation, and retinol for anti-aging benefits.</p>
+            </div>
+        </div>
+        <!-- FAQ 2 -->
+        <div class="faq">
+            <div class="faq-question">
+                <h3>What are “active ingredients” in skincare?</h3>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Active ingredients are those that have been scientifically proven to have a therapeutic effect on the skin.</p>
+            </div>
+        </div>
+        <!-- FAQ 3 -->
+        <div class="faq">
+            <div class="faq-question">
+                <h3>What are some of the main ingredients in CeraVe formulas?</h3>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Main ingredients in CeraVe formulas include ceramides, cholesterol, and fatty acids that help to restore the skin's natural barrier.</p>
+            </div>
+        </div>
+        <!-- FAQ 4 -->
+        <div class="faq">
+            <div class="faq-question">
+                <h3>Why are ceramides included in all CeraVe formulas?</h3>
+                <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Ceramides are included because they play a crucial role in maintaining the skin's barrier and retaining moisture.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2023 CeraVe Skincare</p>
+    </footer>
+
+
+    <script>
+        // JavaScript for FAQ toggle
+        document.querySelectorAll('.faq-question').forEach((question) => {
+            question.addEventListener('click', () => {
+                const faq = question.parentNode;
+                faq.classList.toggle('active');
+                const answer = faq.querySelector('.faq-answer');
+                answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+                const toggle = question.querySelector('.faq-toggle');
+                toggle.textContent = answer.style.display === 'block' ? '−' : '+';
+            });
+        });
+    </script>
+
+</body>
+</html>

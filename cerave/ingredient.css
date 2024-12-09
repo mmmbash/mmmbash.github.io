@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1em;
+}
+
+.logo-container {
+    /* If needed, add styles specific to the logo container */
+}
+
+.brand-logo {
+    /* Ensure the logo is sized correctly */
+    height: auto;
+    /* Other styles as needed */
+}
+
+
+
+
+/* Main navigation container */
+nav {
+    background-color: #686397; /* From css1 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* From css1 */
+    padding: 10px 0; /* From css1 */
+}
+
+
+
+/* Navigation links list */
+#navlinks {
+    list-style-type: none; /* From css1 */
+    display: flex;
+    justify-content: center; /* To replace text-align from css1 */
+    align-items: center; /* For vertical alignment */
+    margin: 0;
+    padding: 0;
+    /*font-size: 24px; From css1 */
+    gap: 20px; /* To maintain spacing between items */
+}
+
+/* Navigation link items */
+#navlinks li {
+    margin: 0; /* Keep it from css1 */
+    padding: 0 10px; /* Half of the margin from css1 to apply on both sides */
+    border-left: 1px solid white; /* From css1 */
+}
+
+/* First child specific style */
+#navlinks li:first-child {
+    border-left: none; /* From css1 */
+}
+
+/* Navigation links */
+#navlinks a {
+    color: #ffffff; /* From css1 */
+    text-decoration: none; /* From css1 */
+    transition: color 0.3s ease; /* From css1 */
+}
+
+/* Navigation link hover effect */
+#navlinks a:hover {
+    color: #d4ec84; /* From css1 */
+}
+
+/* Custom styles for navigation icons, if you have any */
+#navright .navicon {
+    width: 30px; /* Example size for icons */
+    height: auto;
+    margin-left: 20px;
+}
+
+/* If you have a container class that needs to be styled */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Additional global or specific styles */
+
+
+
+
+/* Add other styles here */
+
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 2em;
+}
+
+.ingredient-highlight,
+.skin-concerns,
+.faqs {
+    padding: 2em;
+    background-color: #f4f4f4;
+    margin: 1em;
+    border-radius: 8px;
+}
+
+
+.hero p,
+.ingredient-highlight p,
+.skin-concerns h1,
+.skin-concerns p {
+    text-align: center;
+    font-size: 1.2em; /* Increased font size */
+}
+
+.faq-answer p {
+
+    font-size: 1.2em; /* Increased font size */
+}
+
+
+
+
+/* Additional styles for the ingredient cards and FAQs can be added here */
+
+
+
+
+
+/* ... other styles ... */
+
+.faqs {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.faq-container {
+    border-top: 1px solid #ccc;
+}
+
+.faq {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.faq h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.faq-toggle {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+
+
+.faq-answer p {
+    font-style: italic; /* Makes text italic */
+    color: #6A5ACD; /* A distinct color for the answers */
+    font-family: "Times New Roman", Times, serif; /* Example font change */
+    font-size: 1.2em; /* Increased font size */
+}
+
+
+
+/* ... */
+
+
+
+.testimonial-highlight {
+    text-align: center; /* Center aligns the content */
+    margin: auto; /* Centers the block itself if it has a width */
+    padding: 20px; /* Optional: for spacing */
+}
+
+.testimonial-highlight blockquote {
+    /* Styling for the blockquote, if necessary */
+}
+
+.cta-button {
+    display: block; /* Makes the anchor tag display as a block */
+    width: max-content; /* Makes the button's width as wide as its content */
+    margin: 20px auto; /* Centers the button within its container */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center the text inside the button */
+    background-color: #007bff; /* Example button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners for the button */
+    /* Additional button styles (hover effects, font size, etc.) */
+}
+
+
+footer {
+    text-align: center; /* Centers text for simple cases */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Horizontally centers flex items */
+    align-items: center; /* Vertically centers flex items */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #f8f9fa; /* Give the footer a background color if needed */
+}
