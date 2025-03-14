@@ -1335,7 +1335,7 @@ max-height: 100%;
 /* Image styling for work samples */
 .work-sample1 img {
   max-width: 100%; /* Moderate image size */
-  height: auto; /* Keep aspect ratio */
+  height: 50%; /* Keep aspect ratio */
   display: block; /* Center image */
   margin: 15px auto; /* Space around image */
   border-radius: 6px; /* Rounded corners */
