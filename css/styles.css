@@ -1317,17 +1317,19 @@ max-height: 100%;
 
 /* Banner Image Styling */
 .banner-container img {
-  max-width: 40%;  /* Reduce size to 40% of the container */
-  height: auto;    /* Maintain aspect ratio */
-  display: block;  /* Ensure proper alignment */
-  margin: 20px auto; /* Centering with space */
-  border-radius: 8px; /* Optional: Rounded corners for smooth look */
-  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  max-width: 40%;  /* Adjusts width to 40% of container */
+  height: auto;     /* Keeps aspect ratio */
+  max-height: 250px; /* Limits height to 250px */
+  display: block;   /* Ensures correct alignment */
+  margin: 20px auto; /* Centers the image */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
-/* Responsive size adjustments for smaller screens */
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .banner-container img {
-    max-width: 60%; /* Slightly larger on mobile */
+    max-width: 60%;  /* Slightly larger for mobile */
+    max-height: 200px; /* Reduce height on smaller screens */
   }
 }
