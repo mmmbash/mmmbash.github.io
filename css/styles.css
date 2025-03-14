@@ -1333,9 +1333,9 @@ max-height: 100%;
 }
 
 /* Image styling for work samples */
-.work-sample1 img {
+.work-sample2 img {
   max-width: 100%; /* Moderate image size */
-  height: 50%; /* Keep aspect ratio */
+  height: auto; /* Keep aspect ratio */
   display: block; /* Center image */
   margin: 15px auto; /* Space around image */
   border-radius: 6px; /* Rounded corners */
@@ -1344,7 +1344,28 @@ max-height: 100%;
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-  .work-sample1 img {
+  .work-sample2 img {
     max-width: 100%; /* Slightly larger images for mobile */
   }
 }
+
+
+/* Image styling for work samples with reduced height */
+.work-sample1 img {
+  max-width: 100%;  /* Ensure images fit container */
+  height: auto;      /* Maintain aspect ratio */
+  max-height: 300px; /* Reduce height (adjust as needed) */
+  display: block;    /* Center image */
+  margin: 15px auto; /* Space around image */
+  border-radius: 6px; /* Rounded corners */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15); /* Soft shadow effect */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .work-sample1 img {
+    max-width: 90%;  /* Adjust size slightly for smaller screens */
+    max-height: 250px; /* Further reduce height on mobile */
+  }
+}
+
