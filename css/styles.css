@@ -1332,3 +1332,19 @@ max-height: 100%;
   }
 }
 
+/* Image styling for work samples */
+.work-sample1 img {
+  max-width: 80%; /* Moderate image size */
+  height: auto; /* Keep aspect ratio */
+  display: block; /* Center image */
+  margin: 15px auto; /* Space around image */
+  border-radius: 6px; /* Rounded corners */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15); /* Soft shadow effect */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .work-sample1 img {
+    max-width: 100%; /* Slightly larger images for mobile */
+  }
+}
