@@ -1313,3 +1313,21 @@ max-height: 100%;
     max-width: 80%; /* Slightly larger images for mobile */
   }
 }
+
+
+/* Banner Image Styling */
+.banner-container img {
+  max-width: 40%;  /* Reduce size to 40% of the container */
+  height: auto;    /* Maintain aspect ratio */
+  display: block;  /* Ensure proper alignment */
+  margin: 20px auto; /* Centering with space */
+  border-radius: 8px; /* Optional: Rounded corners for smooth look */
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Responsive size adjustments for smaller screens */
+@media (max-width: 768px) {
+  .banner-container img {
+    max-width: 60%; /* Slightly larger on mobile */
+  }
+}
