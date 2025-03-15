@@ -1417,24 +1417,15 @@ max-height: 100%;
 }
 
 
-/* Style the About Me Section Inside Home */
-.about-me {
-  margin-top: 20px; /* Adds spacing below job title */
-  text-align: left;
-  max-width: 700px; /* Limits width for better readability */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about-me h2 {
+/* Ensure About Me text inside Home Section is black */
+#home .about-me h2 {
   font-size: 28px;
-  color: black !important; /* Ensures "About Me" title is black */
+  color: black !important; /* Forces "About Me" title to be black */
   margin-bottom: 10px;
 }
 
-.about-me p {
+#home .about-me p {
   font-size: 16px;
-  color: black !important; /* Ensures About Me content is black */
+  color: black !important; /* Forces About Me paragraph text to be black */
   line-height: 1.6;
 }
-
