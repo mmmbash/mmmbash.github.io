@@ -1336,7 +1336,7 @@ max-height: 100%;
 .work-sample2 img {
   max-width: 100%; /* Moderate image size */
   height: auto; /* Keep aspect ratio */
-  max-height: 300px; /* Reduce height (adjust as needed) */
+ /* max-height: 300px; /* Reduce height (adjust as needed) */*/
   display: block; /* Center image */
   margin: 15px auto; /* Space around image */
   border-radius: 6px; /* Rounded corners */
@@ -1347,7 +1347,7 @@ max-height: 100%;
 @media (max-width: 768px) {
   .work-sample2 img {
     max-width: 100%; /* Slightly larger images for mobile */
-    max-height: 250px; /* Further reduce height on mobile */
+   /* max-height: 250px; /* Further reduce height on mobile */*/
   }
 }
 
@@ -1356,7 +1356,7 @@ max-height: 100%;
 .work-sample1 img {
   max-width: 100%;  /* Ensure images fit container */
   height: auto;      /* Maintain aspect ratio */
-  max-height: 300px; /* Reduce height (adjust as needed) */
+ /* max-height: 300px; /* Reduce height (adjust as needed) */*/
   display: block;    /* Center image */
   margin: 15px auto; /* Space around image */
   border-radius: 6px; /* Rounded corners */
@@ -1367,7 +1367,7 @@ max-height: 100%;
 @media (max-width: 768px) {
   .work-sample1 img {
     max-width: 90%;  /* Adjust size slightly for smaller screens */
-    max-height: 250px; /* Further reduce height on mobile */
+  /*  max-height: 250px; /* Further reduce height on mobile */*/
   }
 }
 
