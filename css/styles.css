@@ -1332,24 +1332,31 @@ max-height: 100%;
   }
 }
 
-/* Image styling for work samples */
+/* Image styling for work samples - Fully centered */
+.work-sample2 {
+  display: flex;       /* Enables flexbox */
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center;  /* Vertically centers if inside a flex container */
+  text-align: center;   /* Ensures text aligns with the image */
+}
+
+/* Image properties */
 .work-sample2 img {
-  max-width: 100%; /* Moderate image size */
-  height: auto; /* Keep aspect ratio */
- /* max-height: 300px; /* Reduce height (adjust as needed) */*/
-  display: block; /* Center image */
-  margin: 15px auto; /* Space around image */
-  border-radius: 6px; /* Rounded corners */
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15); /* Soft shadow effect */
+  max-width: 100%;      /* Ensures it fits the container */
+  height: auto;         /* Maintains aspect ratio */
+  display: block;       /* Centers inside the div */
+  margin: 0 auto;       /* Centers horizontally */
+  border-radius: 6px;   /* Optional: Rounded corners */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15); /* Soft shadow */
 }
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .work-sample2 img {
-    max-width: 100%; /* Slightly larger images for mobile */
-   /* max-height: 250px; /* Further reduce height on mobile */*/
+    max-width: 90%;    /* Slightly smaller on mobile */
   }
 }
+
 
 
 /* Image styling for work samples with reduced height */
