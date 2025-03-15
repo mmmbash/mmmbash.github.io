@@ -1415,3 +1415,26 @@ max-height: 100%;
   font-weight: bold;
   font-size: 18px; /* Ensures better readability */
 }
+
+
+/* Style the About Me Section Inside Home */
+.about-me {
+  margin-top: 20px; /* Adds spacing below job title */
+  text-align: left;
+  max-width: 700px; /* Limits width for better readability */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me h2 {
+  font-size: 28px;
+  color: black !important; /* Ensures "About Me" title is black */
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 16px;
+  color: black !important; /* Ensures About Me content is black */
+  line-height: 1.6;
+}
+
