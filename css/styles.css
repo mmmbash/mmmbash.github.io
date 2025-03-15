@@ -1378,3 +1378,14 @@ max-height: 100%;
   }
 }
 
+
+/* Change navigation text to blue */
+.navbar-nav > li > a {
+  color: blue !important;  /* Ensures blue color for Home, About, Education, Work Samples, Philosophy */
+}
+
+/* Change the job title text to red */
+.banner-content p {
+  color: red !important;  /* Ensures red color for "Project Management Professional & Technical Communicator" */
+  font-weight: bold; /* Optional: Makes the text bold */
+}
