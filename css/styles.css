@@ -1417,23 +1417,23 @@ max-height: 100%;
 }
 
 
+/* Ensure About Me text inside Home Section is black and centered */
 #home .about-me {
-  margin-top: 20px; /* Adds spacing below job title */
-  text-align: center;
+  text-align: center; /* Centers the text */
   max-width: 700px; /* Limits width for better readability */
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto; /* Centers the section itself */
 }
 
-/* Ensure About Me text inside Home Section is black */
 #home .about-me h2 {
   font-size: 28px;
   color: black !important; /* Forces "About Me" title to be black */
   margin-bottom: 10px;
+  text-align: center; /* Ensures title is centered */
 }
 
 #home .about-me p {
   font-size: 16px;
   color: black !important; /* Forces About Me paragraph text to be black */
   line-height: 1.6;
+  text-align: center; /* Centers the text */
 }
