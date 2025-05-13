@@ -1441,3 +1441,9 @@ max-height: 100%;
   font-weight: normal !important; /* Ensures text is NOT bold */
   font-style: italic !important; /* Makes text italic */
 }
+
+.artifact-credit {
+  margin-top: 5px;
+  font-size: 0.85em;
+  color: #666;
+}
