@@ -1447,3 +1447,29 @@ max-height: 100%;
   font-size: 0.85em;
   color: #666;
 }
+
+
+/* Highlight active or hovered nav items */
+#mainNav li a {
+  position: relative;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+#mainNav li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #fff; /* or your brand color */
+  transition: width 0.3s ease;
+}
+
+#mainNav li a:hover::after,
+#mainNav li.active a::after {
+  width: 100%;
+}
