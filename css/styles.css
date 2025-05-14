@@ -1448,28 +1448,37 @@ max-height: 100%;
   color: #666;
 }
 
+/* Reset list item styles */
+#mainNav li {
+  display: inline-block;
+  margin-right: 20px;
+}
 
-/* Highlight active or hovered nav items */
+/* Nav link base style */
 #mainNav li a {
   position: relative;
-  padding-bottom: 10px;
+  color: blue;
+  font-weight: bold;
   text-decoration: none;
-  color: #fff;
-  transition: all 0.3s ease;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
 }
 
+/* Add underline animation */
 #mainNav li a::after {
-  content: '';
+  content: "";
   position: absolute;
-  left: 0;
   bottom: 0;
+  left: 0;
+  width: 0;
   height: 2px;
-  width: 0%;
-  background-color: #fff; /* or your brand color */
-  transition: width 0.3s ease;
+  background-color: blue;
+  transition: width 0.3s ease-in-out;
 }
 
+/* On hover or when active, underline expands */
 #mainNav li a:hover::after,
 #mainNav li.active a::after {
   width: 100%;
 }
+
