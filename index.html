@@ -125,5 +125,16 @@
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
+
+<script>
+  // Handle click to update active class
+  document.querySelectorAll('#mainNav li a').forEach(link => {
+    link.addEventListener('click', function () {
+      document.querySelectorAll('#mainNav li').forEach(li => li.classList.remove('active'));
+      this.parentElement.classList.add('active');
+    });
+  });
+</script>
+  
 </body>
 </html>
