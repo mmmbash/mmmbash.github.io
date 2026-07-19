@@ -1349,7 +1349,7 @@ max-height: 100%;
 /* Profile image */
 .work-sample2 > img {
   width: 38%;
-  max-width: 380px;
+  max-width: 480px;
   height: 400;
   max-height: 520px;
   object-fit: contain;
