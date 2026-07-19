@@ -1343,8 +1343,8 @@ max-height: 100%;
 /* Reduced profile image height */
 .work-sample2 img {
   width: 100%;
-  height: 420px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   object-position: center top;
   display: block;
   margin: 0 auto;
